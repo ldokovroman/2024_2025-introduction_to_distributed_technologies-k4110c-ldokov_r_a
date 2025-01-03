@@ -15,6 +15,16 @@ Date of finished: 03.01.2025
 
 ## Ход работы
 
+### 1. На локальную машину были уставновлены Docker и Minikube
+
+### 2. Был развернут minikube cluster
+
+```
+minikube start
+```
+
+![image](./img/1.png)
+
 ### Диаграмма
 
 ![image](./img/diagram.png)
