@@ -1,0 +1,21 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: web-deployment
+  namespace: default
+spec:
+  tls:
+  - hosts:
+      - web.info
+    secretName: web-certificate
+  rules:
+  - host: web.info
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: web-deployment
+            port:
+              number: 3000
