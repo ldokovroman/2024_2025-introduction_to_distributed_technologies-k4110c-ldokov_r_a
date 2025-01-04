@@ -15,7 +15,7 @@ Date of finished: 03.01.2025
 
 ## Ход работы
 
-### 1. Создан deployment с 2 репликами контейнера ifilyaninitmo/itdt-contained-frontend:master и переданными переменными в эти реплики: REACT_APP_USERNAME, REACT_APP_COMPANY_NAME
+### 1. Создан deployment с 2 репликами контейнера ifilyaninitmo/itdt-contained-frontend:master и переданными переменными в эти реплики: `REACT_APP_USERNAME`, `REACT_APP_COMPANY_NAME`
 
 ```
 apiVersion: apps/v1
