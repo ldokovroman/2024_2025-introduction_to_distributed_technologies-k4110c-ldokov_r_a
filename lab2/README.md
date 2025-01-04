@@ -47,7 +47,7 @@ spec:
 
 ![image](./img/1.png)
 
-### 2. Создать сервис, через который будет доступ на эти "поды"
+### 2. Создан сервис, через который будет доступ на эти "поды"
 
 ```
 kubectl expose deployment/web-deployment --type="NodePort" --port 3000
