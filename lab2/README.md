@@ -4,7 +4,7 @@ Course: [Introduction to distributed technologies](https://github.com/itmo-ict-f
 Year: 2024/2025  
 Group: K4110c  
 Author: Льдоков Роман Александрович  
-Lab: Lab2 
+Lab: Lab2  
 Date of create: 03.01.2025  
 Date of finished: 03.01.2025  
 
