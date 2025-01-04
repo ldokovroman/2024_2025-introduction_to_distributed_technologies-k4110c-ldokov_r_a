@@ -63,7 +63,7 @@ kubectl port-forward service/web-deployment 3000:3000
 
 ![image](./img/3.png)
 
-### 6. Проверен результат на странице браузера
+### 4. Проверен результат на странице браузера
 
 ![image](./img/4.png)
 
