@@ -159,7 +159,7 @@ kubectl get pods -o wide
 
 ![image](./img/13.png)
 
-### 14.  С "поды" master была пропингована пода "worker"
+### 14.  С "поды" master была пропингована "пода" worker
 
 ```
 kubectl exec -it web-deployment-6c9bfbbfc7-lb596 -- ping 192.168.1.129
