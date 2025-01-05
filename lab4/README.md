@@ -91,7 +91,7 @@ spec:
 calicoctl get ippool -o wide --allow-version-mismatch
 ```
 
-
+![image](./img/7.png)
 
 ### 8. Создан `configMap` с переменными `REACT_APP_USERNAME` и `REACT_APP_COMPANY_NAME`
 
